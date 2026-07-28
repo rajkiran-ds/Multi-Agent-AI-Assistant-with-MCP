@@ -1,5 +1,13 @@
 # 🤖 Multi-Agent Assistant — LangGraph + MCP + Streamlit
 
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-4B32C3?style=for-the-badge)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 A multi-agent system built with **LangGraph** where a router agent dispatches
 natural-language requests to one of three specialist agents. Each agent calls
 a real tool exposed by an **MCP (Model Context Protocol)** server over stdio,
